@@ -8,23 +8,23 @@ self.__precacheManifest = [
     "url": "/js/chunk-vendors.e193304e.js"
   },
   {
-    "revision": "f5809d5987f2b676d5b6",
-    "url": "/js/app.0229d5d9.js"
+    "revision": "5bf531ca133962d567b9",
+    "url": "/js/app.b3854082.js"
   },
   {
     "revision": "8a4b6e77626042c3f2c1",
     "url": "/js/about.551db129.js"
   },
   {
-    "revision": "9a157b242c9ffc9eddfe1916460e4a2e",
+    "revision": "018f955315fd33451ec7dbc95df1d7f7",
     "url": "/index.html"
   },
   {
-    "revision": "82b9c7a5a3f405032b1db71a25f67021",
-    "url": "/img/logo.82b9c7a5.png"
+    "revision": "0b7942f40e26bc00102f0bc52f8f3d94",
+    "url": "/img/burger-flat.0b7942f4.png"
   },
   {
-    "revision": "f5809d5987f2b676d5b6",
-    "url": "/css/app.5ace5a33.css"
+    "revision": "5bf531ca133962d567b9",
+    "url": "/css/app.6d71ec16.css"
   }
 ];
