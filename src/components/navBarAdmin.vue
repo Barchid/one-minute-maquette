@@ -1,5 +1,5 @@
 <template>
-  <div class="navBarAdmin">bla
+  <div class="navBarAdmin">
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item dropdown">
@@ -30,8 +30,9 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <router-link class="dropdown-item" to="/cookerOrder">Voir les commandes</router-link>
-            <div class="dropdown-divider"></div>
             <router-link class="dropdown-item" to="/rolesCookers">Accéder aux rôles</router-link>
+            <router-link class="dropdown-item" to="/unavailableDish">Plat indisponible</router-link>
+            <div class="dropdown-divider"></div>
             <router-link class="dropdown-item" to="/modifiedRoles">Modifier les rôles</router-link>
           </div>
         </li>

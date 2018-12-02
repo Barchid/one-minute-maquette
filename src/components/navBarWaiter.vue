@@ -4,9 +4,10 @@
       <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Menu
       </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <router-link to="/" class="nav-link dropdown-toggle">Voir le menu</router-link>
-        <router-link to="/" class="nav-link dropdown-toggle disabled">Modifier le menu</router-link>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+        <router-link class="dropdown-item" to="/menu">Voir le menu</router-link>
+        <div class="dropdown-divider"></div>
+        <router-link class="dropdown-item disabled" to="/changeMenu">Modifier le Menu</router-link>
       </div>
     </li>
     <li class="nav-item dropdown">
@@ -14,10 +15,10 @@
         Service
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item disabled" href="pages/service/nouvelle-commande.html">Prendre une commande</a>
-        <a class="dropdown-item disabled" href="pages/service/commandes-1.html">Voir les commandes</a>
+        <router-link class="dropdown-item" to="/order-1">Voir les commandes</router-link>
+        <router-link class="dropdown-item" to="pages/service/takeOrder">Prendre une commande</router-link>
         <div class="dropdown-divider"></div>
-        <a class="dropdown-item disabled" href="pages/service/addition.html">Régler l'addition</a>
+        <router-link class="dropdown-item" to="pages/service/bill">Régler l'addition</router-link>
       </div>
     </li>
 
@@ -26,10 +27,11 @@
         Cuisine
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <router-link class="dropdown-item" to="/">Voir les commandes</router-link>
+        <router-link class="dropdown-item disabled" to="/cookerOrder">Voir les commandes</router-link>
+        <router-link class="dropdown-item disabled" to="/rolesCookers">Accéder aux rôles</router-link>
+        <router-link class="dropdown-item disabled" to="/unavailableDish">Plat indisponible</router-link>
         <div class="dropdown-divider"></div>
-        <router-link class="dropdown-item disabled" to="/">Accéder aux rôles</router-link>
-        <router-link class="dropdown-item disabled" to="/">Modifier les rôles</router-link>
+        <router-link class="dropdown-item disabled" to="/modifiedRoles">Modifier les rôles</router-link>
       </div>
     </li>
   </ul>
