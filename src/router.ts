@@ -96,5 +96,35 @@ export default new Router({
       name: 'new-menu',
       component: () => import(/* webpackChunkName: "about" */ './views/NewMenu.vue'),
     },
+    {
+      path: '/cookerToDoNothing',
+      name: 'cookerToDoNothing',
+      component: () => import(/* webpackChunkName: "about" */ './views/CookerToDoNothing.vue'),
+    },
+    {
+      path: '/cook',
+      name: 'cook',
+      component: () => import(/* webpackChunkName: "about" */ './views/Cook.vue'),
+    },
+    {
+      path: '/newCook',
+      name: 'newCook',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewCook.vue'),
+    },
+    {
+      path: '/newCookerToDoNothing',
+      name: 'newCookerToDoNothing',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewCookerToDoNothing.vue'),
+    },
+    {
+      path: '/newRolesCookers',
+      name: 'newRolesCookers',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewRolesCookers.vue'),
+    },
+    {
+      path: '/newCookerOrder',
+      name: 'newCookerOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewCookerOrder.vue'),
+    },
   ],
 });

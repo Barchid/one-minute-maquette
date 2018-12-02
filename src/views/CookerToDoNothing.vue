@@ -1,11 +1,18 @@
 <template>
-  <div class="rolesCookers">
+  <div class="cookerToDoNothing">
+    <div class="alert alert-info alert-dismissible fade show" role="alert">
+      <strong>Rien à cuisiner.</strong> Aucun plat n'est à préparer pour vous.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>Nouvelle commande !</strong> Une nouvelle commande a été ajoutée au <strong>Pâtissier</strong>.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
     </div>
+
     <div class="content">
       <h3> Membres du personnel</h3>
       <div class="container">

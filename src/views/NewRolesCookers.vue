@@ -1,7 +1,7 @@
 <template>
-  <div class="rolesCookers">
+  <div class="newRolesCookers">
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
-      <strong>Nouvelle commande !</strong> Une nouvelle commande a été ajoutée au <strong>Pâtissier</strong>.
+      <strong>Nouvelle commande !</strong> Une nouvelle commande a été ajoutée au <strong>Poissonnier</strong>.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
         <span aria-hidden="true">&times;</span>
       </button>
@@ -11,20 +11,20 @@
       <div class="container">
         <div class="row">
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-1.jpg" alt="">
               Saucier
             </router-link>
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-2.jpg" alt="">
               Rôtisseur
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-3.jpg" alt="">
               Boucher
 
@@ -32,7 +32,7 @@
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerOrder">
               <img style="width:100px;"src="../assets/membre-cuisine-4.jpg" alt="">
               Poissonnier
             </router-link>
@@ -41,28 +41,28 @@
         </div>
         <div class="row">
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-5.jpg" alt="">
               Entremétier
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-6.jpg" alt="">
               Garde manger
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerOrder">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-7.jpg" alt="">
               Pâtissier
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-8.jpg" alt="">
               Glacier
             </router-link>
@@ -71,28 +71,28 @@
         </div>
         <div class="row">
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-9.jpg" alt="">
               Barman
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-10.jpg" alt="">
               Commis
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-11.jpg" alt="">
               Tournant
             </router-link>
 
           </div>
           <div class="col-md">
-            <router-link to="/cookerToDoNothing">
+            <router-link to="/newCookerToDoNothing">
               <img style="width:100px;"src="../assets/membre-cuisine-12.jpg" alt="">
               Apprenti
             </router-link>
