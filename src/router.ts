@@ -76,5 +76,10 @@ export default new Router({
       name: 'takeOrder',
       component: () => import(/* webpackChunkName: "about" */ './views/TakeOrder.vue'),
     },
+    {
+      path: '/unavailableDish',
+      name: 'unavailableDish',
+      component: () => import(/* webpackChunkName: "about" */ './views/UnavailableDish.vue'),
+    },
   ],
 });
