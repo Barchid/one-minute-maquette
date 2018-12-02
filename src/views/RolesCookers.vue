@@ -1,5 +1,5 @@
 <template>
-  <div class="rolescookers">
+  <div class="rolesCookers">
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>Nouvelle commande !</strong> Une nouvelle commande a été ajoutée au <strong>Pâtissier</strong>.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
@@ -53,4 +53,6 @@
         </div>
       </div>
     </div>
-  </template>
+  </div>
+</div>
+</template>
