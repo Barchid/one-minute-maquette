@@ -1,4 +1,4 @@
 <template>
-  <div class="cookerCommand">
+  <div class="bill">
   </div>
 </template>

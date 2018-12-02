@@ -1,7 +1,27 @@
 <template>
-  <div class="command-1">
+  <div class="order-1">
 
     <div class="content">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+          </div>
+          <div class="pagination-nav">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item"><router-link class="page-link" to="/order-3">Previous</router-link></li>
+                <li class="page-item disabled"><router-link class="page-link" to="/order-1">1</router-link></li>
+                <li class="page-item"><router-link class="page-link" to="/order-2">2</router-link></li>
+                <li class="page-item"><router-link class="page-link" to="/order-3">3</router-link></li>
+                <li class="page-item"><router-link class="page-link" to="/order-2">Next</router-link></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col">
+          </div>
+        </div>
+      </div>
+      
       Table 3
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Plat Indisponible</div>
@@ -35,25 +55,7 @@
         <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Addition à régler</div>
       </div>
 
-      <div class="container">
-        <div class="row">
-          <div class="col">
-          </div>
-          <div class="pagination-nav">
-            <nav aria-label="Page navigation example">
-              <ul class="pagination">
-                <li class="page-item"><a class="page-link" href="commandes-3.html">Previous</a></li>
-                <li class="page-item disabled"><a class="page-link" href="commandes-1.html">1</a></li>
-                <li class="page-item"><a class="page-link" href="commandes-2.html">2</a></li>
-                <li class="page-item"><a class="page-link" href="commandes-3.html">3</a></li>
-                <li class="page-item"><a class="page-link" href="commandes-2.html">Next</a></li>
-              </ul>
-            </nav>
-          </div>
-          <div class="col">
-          </div>
-        </div>
-      </div>
+
 
     </div>
 

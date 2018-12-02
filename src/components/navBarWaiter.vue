@@ -1,8 +1,10 @@
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
   <ul class="navbar-nav mr-auto">
     <li class="nav-item dropdown">
-          <router-link to="/" class="nav-link dropdown-toggle">Menu</router-link>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Menu
+      </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <router-link to="/" class="nav-link dropdown-toggle">Voir le menu</router-link>
         <router-link to="/" class="nav-link dropdown-toggle disabled">Modifier le menu</router-link>
       </div>

@@ -1,4 +1,4 @@
 <template>
-  <div class="modifiedMenu">
+  <div class="changeMenu">
   </div>
 </template>

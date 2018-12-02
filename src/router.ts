@@ -27,19 +27,19 @@ export default new Router({
     },
 
     {
-      path: '/addCommand',
-      name: 'addCommand',
-      component: () => import(/* webpackChunkName: "about" */ './views/AddCommand.vue'),
+      path: '/takeOrder',
+      name: 'takeOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/TakeOrder.vue'),
     },
     {
-      path: '/cookerCommand',
-      name: 'cookerCommand',
-      component: () => import(/* webpackChunkName: "about" */ './views/CookerCommand.vue'),
+      path: '/cookerOrder',
+      name: 'cookerOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/CookerOrder.vue'),
     },
     {
-      path: '/modifiedMenu',
-      name: 'modifiedMenu',
-      component: () => import(/* webpackChunkName: "about" */ './views/ModifiedMenu.vue'),
+      path: '/changeMenu',
+      name: 'changeMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/ChangeMenu.vue'),
     },
     {
       path: '/rolesCookers',
@@ -47,19 +47,29 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/RolesCookers.vue'),
     },
     {
-      path: '/command-1',
-      name: 'command-1',
-      component: () => import(/* webpackChunkName: "about" */ './views/Command-1.vue'),
+      path: '/order-1',
+      name: 'order-1',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-1.vue'),
     },
     {
-      path: '/command-2',
-      name: 'command-2',
-      component: () => import(/* webpackChunkName: "about" */ './views/Command-2.vue'),
+      path: '/order-2',
+      name: 'order-2',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-2.vue'),
     },
     {
-      path: '/command-3',
-      name: 'command-3',
-      component: () => import(/* webpackChunkName: "about" */ './views/Command-3.vue'),
+      path: '/order-3',
+      name: 'order-3',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-3.vue'),
+    },
+    {
+      path: '/navBarAdmin',
+      name: 'navBarAdmin',
+      component: () => import(/* webpackChunkName: "about" */ './components/navBarAdmin.vue'),
+    },
+    {
+      path: '/menu',
+      name: 'menu',
+      component: () => import(/* webpackChunkName: "about" */ './views/Menu.vue'),
     },
   ],
 });
