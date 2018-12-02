@@ -1,16 +1,15 @@
 <template>
   <div class="accueil">
-    <div class="content">
-      <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <!--  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src="./assets/accueil-1.jpg" alt="First slide">
+        div class="carousel-item active">
+            <img class="d-block w-100" src="../assets/accueil-1.jpg" alt="First slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="./assets/images/accueil-2.jpg" alt="Second slide">
+            <img class="d-block w-100" src="../assets/accueil-2.jpg" alt="Second slide">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="./assets/images/accueil-3.jpg" alt="Third slide">
+            <img class="d-block w-100" src="../assets/accueil-3.jpg" alt="Third slide">
           </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -21,7 +20,6 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
-      </div>
-    </div>
+      </div>-->
   </div>
 <template>
