@@ -81,5 +81,15 @@ export default new Router({
       name: 'unavailableDish',
       component: () => import(/* webpackChunkName: "about" */ './views/UnavailableDish.vue'),
     },
+    {
+      path: '/bill',
+      name: 'bill',
+      component: () => import(/* webpackChunkName: "about" */ './views/Bill.vue'),
+    },
+    {
+      path: '/bill-table-18',
+      name: 'bill-table-18',
+      component: () => import(/* webpackChunkName: "about" */ './views/Bill-table-18.vue'),
+    },
   ],
 });

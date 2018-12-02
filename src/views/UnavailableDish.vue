@@ -1,6 +1,8 @@
 <template>
   <div class="unavailableDish">
     <form method="post" action="traitement.php">
+
+      <h2>Retirez les plats indisponibles</h2>
       <h3>Entrée</h3>
 
       <p><input type="checkbox" class="entree1"checked="checked" style="margin-right:10px;" />Croquette de crevette</p>

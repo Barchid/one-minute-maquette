@@ -22,7 +22,6 @@
 
       <p><input type="text" name="dessert1" value="0" style="width:30px;margin-right:10px;" />Brioche façon pain-perdu au caramel au beurre salé</p>
       <p><input type="text" name="dessert2" value="0" style="width:30px;margin-right:10px;" />Tarte fine au pommes</p>
-      <p><input type="text" name="dessert3" value="0" style="width:30px;margin-right:10px;" />Salade d'été</p>
       <p><input type="text" name="dessert4" value="0" style="width:30px;margin-right:10px;" />Coupe de glace ou de sorbet (3 boules)</p>
 
       <router-link to="/order-3"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Submit</button></router-link>
