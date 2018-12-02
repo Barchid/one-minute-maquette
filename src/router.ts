@@ -91,5 +91,10 @@ export default new Router({
       name: 'bill-table-18',
       component: () => import(/* webpackChunkName: "about" */ './views/Bill-table-18.vue'),
     },
+    {
+      path: '/new-menu',
+      name: 'new-menu',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewMenu.vue'),
+    },
   ],
 });
