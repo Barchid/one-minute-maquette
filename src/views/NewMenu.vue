@@ -1,5 +1,5 @@
 <template>
-  <div class="menu">
+  <div class="new-menu">
     <div class="content">
 
       Entrée
@@ -9,7 +9,7 @@
             Croquette de crevette
           </div>
           <div class="col">
-            3€
+            7€
           </div>
         </div>
         <div class="row">
@@ -17,23 +17,24 @@
             Os à la moelle, pain grillé, fleur de sel
           </div>
           <div class="col">
-            3€
+            9€
           </div>
         </div>
-        <div class="row">
-          <div class="col">
-            Salade d'été
-          </div>
-          <div class="col">
-            3€
-          </div>
-        </div>
+
         <div class="row">
           <div class="col">
             Croquant au Maroilles, effeuillée de chicon
           </div>
           <div class="col">
-            3€
+            8€
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            Foie gras poêlé, pain grillé, confiture d'oignon
+          </div>
+          <div class="col">
+            9€
           </div>
         </div>
       </div>
@@ -45,7 +46,7 @@
             Pièce de boeuf, sauce au poivre, frite, salade
           </div>
           <div class="col">
-            3€
+            15€
           </div>
         </div>
         <div class="row">
@@ -53,7 +54,7 @@
             Poisson du marché, riz pilaf, légumes
           </div>
           <div class="col">
-            3€
+            13€
           </div>
         </div>
         <div class="row">
@@ -61,12 +62,15 @@
             Carbonnade flammade, frites
           </div>
           <div class="col">
-            3€
+            14€
           </div>
         </div>
         <div class="row">
           <div class="col">
             Suprème de poulet forestier, purée maison
+          </div>
+          <div class="col">
+            14€
           </div>
         </div>
         <div class="row">
@@ -74,7 +78,7 @@
             Fish & Chips, sauce cocktail,  sauce tartare et mesclun
           </div>
           <div class="col">
-            3€
+            12€
           </div>
         </div>
       </div>
@@ -87,7 +91,7 @@
             Brioche façon pain-perdu au caramel au beurre salé
           </div>
           <div class="col">
-            3€
+            6€
           </div>
         </div>
         <div class="row">
@@ -95,15 +99,7 @@
             Tarte fine au pommes
           </div>
           <div class="col">
-            3€
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            Salade d'été
-          </div>
-          <div class="col">
-            3€
+            6€
           </div>
         </div>
         <div class="row">
@@ -111,10 +107,10 @@
             Coupe de glace ou de sorbet (3 boules)
           </div>
           <div class="col">
-            3€
+            6€
           </div>
         </div>
       </div>
-</div>
-</div>
+    </div>
+  </div>
 </template>

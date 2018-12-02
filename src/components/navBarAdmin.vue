@@ -1,34 +1,42 @@
-<div class="collapse navbar-collapse" id="navbarSupportedContent">
-  <ul class="navbar-nav mr-auto">
-    <li class="nav-item dropdown">
-          <router-link to="/" class="nav-link dropdown-toggle">Menu</router-link>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <router-link to="/" class="nav-link dropdown-toggle">Voir le menu</router-link>
-        <router-link to="/" class="nav-link dropdown-toggle">Modifier le menu</router-link>
-      </div>
-    </li>
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Service
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <a class="dropdown-item" href="pages/service/nouvelle-commande.html">Prendre une commande</a>
-        <a class="dropdown-item" href="pages/service/commandes-1.html">Voir les commandes</a>
-        <div class="dropdown-divider"></div>
-        <a class="dropdown-item disabled" href="pages/service/addition.html">Régler l'addition</a>
-      </div>
-    </li>
+<template>
+  <div class="navBarAdmin">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Menu
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <router-link class="dropdown-item" to="/menu">Voir le menu</router-link>
+            <div class="dropdown-divider"></div>
+            <router-link class="dropdown-item" to="/changeMenu">Modifier le Menu</router-link>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Service
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <router-link class="dropdown-item" to="/order-1">Voir les commandes</router-link>
+            <router-link class="dropdown-item" to="/takeOrder">Prendre une commande</router-link>
+            <div class="dropdown-divider"></div>
+            <router-link class="dropdown-item" to="/bill">Régler l'addition</router-link>
+          </div>
+        </li>
 
-    <li class="nav-item dropdown">
-      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Cuisine
-      </a>
-      <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-        <router-link class="dropdown-item" to="/">Voir les commandes</router-link>
-        <div class="dropdown-divider"></div>
-        <router-link class="dropdown-item" to="/">Accéder aux rôles</router-link>
-        <router-link class="dropdown-item" to="/">Modifier les rôles</router-link>
-      </div>
-    </li>
-  </ul>
-</div>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Cuisine
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <router-link class="dropdown-item" to="/cookerOrder">Voir les commandes</router-link>
+            <router-link class="dropdown-item" to="/rolesCookers">Accéder aux rôles</router-link>
+            <router-link class="dropdown-item" to="/unavailableDish">Plat indisponible</router-link>
+            <div class="dropdown-divider"></div>
+            <router-link class="dropdown-item" to="/changeRolesCookers">Modifier les rôles</router-link>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</template>
