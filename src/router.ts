@@ -71,5 +71,10 @@ export default new Router({
       name: 'menu',
       component: () => import(/* webpackChunkName: "about" */ './views/Menu.vue'),
     },
+    {
+      path: '/takeOrder',
+      name: 'takeOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/TakeOrder.vue'),
+    },
   ],
 });

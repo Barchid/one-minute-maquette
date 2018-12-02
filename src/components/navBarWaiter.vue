@@ -16,9 +16,9 @@
       </a>
       <div class="dropdown-menu" aria-labelledby="navbarDropdown">
         <router-link class="dropdown-item" to="/order-1">Voir les commandes</router-link>
-        <router-link class="dropdown-item" to="pages/service/takeOrder">Prendre une commande</router-link>
+        <router-link class="dropdown-item" to="/takeOrder">Prendre une commande</router-link>
         <div class="dropdown-divider"></div>
-        <router-link class="dropdown-item" to="pages/service/bill">Régler l'addition</router-link>
+        <router-link class="dropdown-item" to="/bill">Régler l'addition</router-link>
       </div>
     </li>
 

@@ -51,9 +51,9 @@
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">En train d'être cuisiné</div>
       </div>
-      Table 14
+      Table 4
       <div class="progress">
-        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Commande prise</div>
+        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">En train d'être cuisiné</div>
       </div>
 
 
