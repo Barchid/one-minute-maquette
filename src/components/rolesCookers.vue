@@ -39,7 +39,7 @@
         </div>
         <div class="row">
           <div class="col-md">
-            Garde manger
+
           </div>
           <div class="col-md">
             Commis
