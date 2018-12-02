@@ -31,7 +31,7 @@
         <router-link class="dropdown-item disabled" to="/rolesCookers">Accéder aux rôles</router-link>
         <router-link class="dropdown-item disabled" to="/unavailableDish">Plat indisponible</router-link>
         <div class="dropdown-divider"></div>
-        <router-link class="dropdown-item disabled" to="/modifiedRoles">Modifier les rôles</router-link>
+        <router-link class="dropdown-item disabled" to="/changeRolesCookers">Modifier les rôles</router-link>
       </div>
     </li>
   </ul>

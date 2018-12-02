@@ -126,5 +126,20 @@ export default new Router({
       name: 'newCookerOrder',
       component: () => import(/* webpackChunkName: "about" */ './views/NewCookerOrder.vue'),
     },
+    {
+      path: '/billPaid',
+      name: 'billPaid',
+      component: () => import(/* webpackChunkName: "about" */ './views/BillPaid.vue'),
+    },
+    {
+      path: '/changeRolesCookers',
+      name: 'changeRolesCookers',
+      component: () => import(/* webpackChunkName: "about" */ './views/ChangeRolesCookers.vue'),
+    },
+    {
+      path: '/changeProfil',
+      name: 'changeProfil',
+      component: () => import(/* webpackChunkName: "about" */ './views/ChangeProfil.vue'),
+    },
   ],
 });

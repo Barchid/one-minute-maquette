@@ -26,7 +26,7 @@
     <p><span style="font-weight: bold;">6€</span> 2x Coupe de glace ou de sorbet (3 boules)</p>
 
 
-          <router-link to="/bill-table-18"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Payer 166€</button></router-link>
+          <router-link to="/billPaid"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Payer 166€</button></router-link>
         </form>
   </div>
 </template>
