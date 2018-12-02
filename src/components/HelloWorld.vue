@@ -14,7 +14,7 @@
         <input type="checkbox" class="form-check-input" id="exampleCheck1">
         <label class="form-check-label" for="exampleCheck1">Check me out</label>
       </div>
-      <a href="index.html"><button type="submit" class="btn btn-primary">Submit</button></a>
+      <router-link to="/accueil"><button type="submit" class="btn btn-primary">Submit</button></router-link>
     </form>
 </template>
 
