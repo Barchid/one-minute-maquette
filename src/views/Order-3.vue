@@ -21,15 +21,18 @@
           </div>
         </div>
       </div>
+    <router-link to="order">
       Table 2
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 60%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Commande prise</div>
       </div>
+    </router-link>
+    <router-link to="order">
       Table 14
       <div class="progress">
         <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 25%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">Commande prise</div>
       </div>
-
+    </router-link>
 
     </div>
   </div>

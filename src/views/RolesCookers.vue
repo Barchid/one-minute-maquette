@@ -1,5 +1,11 @@
 <template>
   <div class="rolesCookers">
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+      <strong>Préparation supprimée ! </strong>La préparation <strong>Salade d'été</strong> a été retiré de la commande 14.
+      <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
     <div class="alert alert-warning alert-dismissible fade show" role="alert">
       <strong>Nouvelle commande !</strong> Une nouvelle commande a été ajoutée au <strong>Pâtissier</strong>.
       <button type="button" class="close" data-dismiss="alert" aria-label="Close">
