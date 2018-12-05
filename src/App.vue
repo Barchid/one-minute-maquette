@@ -27,7 +27,7 @@
               <router-link class="dropdown-item" to="/order-1">Voir les commandes</router-link>
               <router-link class="dropdown-item" to="/takeOrder">Prendre une commande</router-link>
               <div class="dropdown-divider"></div>
-              <router-link class="dropdown-item" to="/bill">Régler l'addition</router-link>
+              <router-link class="dropdown-item" to="/searchOrder">Recherche une commande</router-link>
             </div>
           </li>
 
@@ -36,7 +36,6 @@
               Cuisine
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <router-link class="dropdown-item" to="/cookerOrder">Voir les commandes</router-link>
               <router-link class="dropdown-item" to="/rolesCookers">Accéder aux rôles</router-link>
               <router-link class="dropdown-item" to="/unavailableDish">Plat indisponible</router-link>
               <div class="dropdown-divider"></div>

@@ -97,14 +97,14 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/UnavailableDish.vue'),
     },
     {
-      path: '/bill',
-      name: 'bill',
-      component: () => import(/* webpackChunkName: "about" */ './views/Bill.vue'),
+      path: '/searchOrder',
+      name: 'searchOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/SearchOrder.vue'),
     },
     {
-      path: '/bill-table-18',
-      name: 'bill-table-18',
-      component: () => import(/* webpackChunkName: "about" */ './views/Bill-table-18.vue'),
+      path: '/order',
+      name: 'order',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order.vue'),
     },
     {
       path: '/new-menu',
@@ -142,9 +142,9 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/NewCookerOrder.vue'),
     },
     {
-      path: '/billPaid',
-      name: 'billPaid',
-      component: () => import(/* webpackChunkName: "about" */ './views/BillPaid.vue'),
+      path: '/order',
+      name: 'order',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order.vue'),
     },
     {
       path: '/changeRolesCookers',
@@ -155,6 +155,26 @@ export default new Router({
       path: '/changeProfil',
       name: 'changeProfil',
       component: () => import(/* webpackChunkName: "about" */ './views/ChangeProfil.vue'),
+    },
+    {
+      path: '/addToOrder',
+      name: 'addToOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/AddToOrder.vue'),
+    },
+    {
+      path: '/formAddToOrder',
+      name: 'formAddToOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/FormAddToOrder.vue'),
+    },
+    {
+      path: '/formRemoveToOrder',
+      name: 'formRemoveToOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/FormRemoveToOrder.vue'),
+    },
+    {
+      path: '/removeToOrder',
+      name: 'removeToOrder',
+      component: () => import(/* webpackChunkName: "about" */ './views/RemoveToOrder.vue'),
     },
   ],
 });
