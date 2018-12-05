@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.eeafe72b67cbbe09e5554709a0485431.js"
+  "/precache-manifest.8eaf2e42c4e92ac7b928c235698c1d86.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "one-minute-maquette"});
