@@ -52,11 +52,6 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/CookerOrder.vue'),
     },
     {
-      path: '/changeMenu',
-      name: 'changeMenu',
-      component: () => import(/* webpackChunkName: "about" */ './views/ChangeMenu.vue'),
-    },
-    {
       path: '/rolesCookers',
       name: 'rolesCookers',
       component: () => import(/* webpackChunkName: "about" */ './views/RolesCookers.vue'),
@@ -156,25 +151,12 @@ export default new Router({
       name: 'changeProfil',
       component: () => import(/* webpackChunkName: "about" */ './views/ChangeProfil.vue'),
     },
+
+
     {
-      path: '/addToOrder',
-      name: 'addToOrder',
-      component: () => import(/* webpackChunkName: "about" */ './views/AddToOrder.vue'),
-    },
-    {
-      path: '/formAddToOrder',
-      name: 'formAddToOrder',
-      component: () => import(/* webpackChunkName: "about" */ './views/FormAddToOrder.vue'),
-    },
-    {
-      path: '/formRemoveToOrder',
-      name: 'formRemoveToOrder',
-      component: () => import(/* webpackChunkName: "about" */ './views/FormRemoveToOrder.vue'),
-    },
-    {
-      path: '/removeToOrder',
-      name: 'removeToOrder',
-      component: () => import(/* webpackChunkName: "about" */ './views/RemoveToOrder.vue'),
+      path: '/removeDish',
+      name: 'removeDish',
+      component: () => import(/* webpackChunkName: "about" */ './views/RemoveDish.vue'),
     },
     {
       path: '/billPaid',
@@ -271,19 +253,39 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/Order-table-17.vue'),
     },
     {
-     path: '/veganMenu',
-     name: 'veganMenu',
-     component: () => import(/* webpackChunkName: "about" */ './views/VeganMenu.vue'),
-   },
-   {
-    path: '/all-menus',
-    name: 'all-menus',
-    component: () => import(/* webpackChunkName: "about" */ './views/AllMenus.vue'),
-  },
-  {
-   path: '/bossMenu',
-   name: 'bossMenu',
-   component: () => import(/* webpackChunkName: "about" */ './views/BossMenu.vue'),
- },
+      path: '/veganMenu',
+      name: 'veganMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/VeganMenu.vue'),
+    },
+    {
+      path: '/all-menus',
+      name: 'all-menus',
+      component: () => import(/* webpackChunkName: "about" */ './views/AllMenus.vue'),
+    },
+    {
+      path: '/bossMenu',
+      name: 'bossMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/BossMenu.vue'),
+    },
+    {
+      path: '/summerMenu',
+      name: 'summerMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/SummerMenu.vue'),
+    },
+    {
+      path: '/newMenu',
+      name: 'newMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/NewMenu.vue'),
+    },
+    {
+      path: '/winterMenu',
+      name: 'winterMenu',
+      component: () => import(/* webpackChunkName: "about" */ './views/WinterMenu.vue'),
+    },
+    {
+     path: '/createDish',
+     name: 'createDish',
+     component: () => import(/* webpackChunkName: "about" */ './views/CreateDish.vue'),
+    },
   ],
 });

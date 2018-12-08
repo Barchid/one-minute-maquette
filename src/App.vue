@@ -19,7 +19,7 @@
     <!--          <router-link class="dropdown-item" to="/menu">Voir les catégories</router-link>
               <router-link class="dropdown-item" to="/all-menus">Voir les menus</router-link>-->
               <div class="dropdown-divider"></div>
-              <router-link class="dropdown-item" to="/bossMenu">Page administration Patron</router-link>
+              <router-link class="dropdown-item" to="/bossMenu">Page administration Menu</router-link>
 
 
             </div>

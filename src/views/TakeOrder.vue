@@ -1,7 +1,9 @@
 <template>
   <div class="order">
     <h4 style="margin-bottom:30px;">Nouvelle commande</h4>
-    <p>Numéro de la table <input value="14"/></p>
+    <p>Numéro de la table <input value="14" style="margin-right:200px;"/>
+    <router-link  to="/order-table-14"><button type="submit" class="btn btn-primary">Valider la commande</button></router-link>
+</p>
     <div class="container">
       <div class="row">
         <div class="col-l" style="margin-right:30px;">
@@ -68,7 +70,6 @@
       </div>
     </div>
 
-      <router-link  to="/order-table-14"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Valider la commande</button></router-link>
 
 
   </div>

@@ -1,10 +1,10 @@
 <template>
-  <div class="order-table-1">
+  <div class="removeDish">
     <h4 style="margin-bottom:30px;">Page d'administration du Menu</h4>
     <form method="post" action="traitement.php">
 
       <p>
-        <router-link to="/summerMenu" style="margin-right:30px;">
+        <router-link to="/veganMenu" style="margin-right:30px;">
 
 
           <button type="submit" class="btn btn-primary bg-success"   style="border:none" >
@@ -12,7 +12,7 @@
           </router-link>
 
 
-          <router-link to="/winterMenu" style="margin-right:30px;">
+          <router-link to="/veganMenu" style="margin-right:30px;">
 
             <button type="submit" class="btn btn-primary"   style="border:none" >
               <img src="../assets/menu/plat-4-1.jpg" alt="" style="width:100px;border:3px solid white;"/> Menu d'hiver</button>
