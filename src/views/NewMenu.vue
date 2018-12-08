@@ -1,6 +1,6 @@
 <template>
   <div class="new-menu">
-    <h4 style="margin-bottom:30px;">Page d'administration du Menu Vegan</h4>
+    <h4 style="margin-bottom:30px;">Page d'administration d'un nouveau Menu</h4>
 
     <router-link to="/accueil"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Valider les modifications</button></router-link>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary bg-success" style="margin-bottom:10px;border-color:green;margin-right:10px">Rendre actif</button></router-link>

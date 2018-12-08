@@ -1,7 +1,7 @@
 <template>
   <div class="order-table-1">
     <h4 style="margin-bottom:30px;">Page d'administration du Menu</h4>
-    <form method="post" action="traitement.php">
+    <form method="post" action="bossMenu">
       <h4 style="margin-bottom:30px;color:#007bff;text-align:center;">Menus</h4>
 
       <p>
@@ -24,7 +24,7 @@
               <button type="submit" class="btn btn-primary"  style="border:none" >
                 <img src="../assets/menu/plat-5-1.jpg" alt="" style="width:100px;border:3px solid white;"/> Menu Vegan</button>
               </router-link>
-              <router-link to="/veganMenu" style="margin-right:30px;">
+              <router-link to="/newMenu" style="margin-right:30px;">
                 <button type="submit" class="btn btn-primary"  style="border:none" >
                   <img src="../assets/menu/plat-new.jpg" alt="" style="width:100px;border:3px solid white;"/>
 
@@ -35,21 +35,46 @@
 
             <h4 style="margin-top:30px;color:#007bff;text-align:center;">Catégories</h4>
 
-            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+            <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
               Supprimer
-            </button>
-            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+            </div>
+            <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
               Ajouter
-            </button>
+            </div>
+            <p>
+
+              <div class="btn btn-primary disabled"   style="border:none; margin-right:10px;" >
+                <img src="../assets/menu/plat-6.jpg" alt="" style="width:100px;border:3px solid white;"/> Poisson
+              </div>
+
+              <div class="btn btn-primary disabled" style="border:none; margin-right:10px;" >
+                <img src="../assets/menu/plat-5.jpg" alt="" style="width:100px;border:3px solid white;"/> Viande
+              </div>
+
+
+              <div class="btn btn-primary disabled"  style="border:none; margin-right:10px;" >
+                <img src="../assets/menu/plat-11.jpg" alt="" style="width:100px;border:3px solid white;"/> Pâttiserie
+              </div>
+              <div class="btn btn-primary disabled"  style="border:none; margin-right:10px;" >
+                <img src="../assets/menu/plat-12.jpg" alt="" style="width:100px;border:3px solid white;"/>
+
+                Glace
+              </div>
+
+              <button type="submit" class="btn btn-primary disabled"  style="border:none" >
+                <img src="../assets/menu/plat-5-1.jpg" alt="" style="width:100px;border:3px solid white;"/> Vegan
+              </button>
+            </p>
+
 
             <h4 style="margin-top:30px;color:#007bff;text-align:center;">Préparations</h4>
 
-            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+            <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
               Supprimer
-            </button>
-            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+            </div>
+            <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
               Ajouter
-            </button>
+            </div>
             <div class="container">
               <div class="row">
                 <div class="col-sm">

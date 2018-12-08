@@ -2,7 +2,7 @@
   <div class="unavailableDish">
     <form method="post" action="traitement.php">
 
-      <h2>Retirez les plats indisponibles</h2>
+      <h2>Retirez les préparations indisponibles</h2>
       <h3>Entrée</h3>
 
       <p>
@@ -17,7 +17,7 @@
         Salade d'été</p>
       <p><input type="checkbox" class="entree4"checked="checked" style="margin-right:10px;" />
         <img src="../assets/menu/plat-4.jpg" alt="" style="width:50px;border:3px solid white;"/>
-        Croquant au Maroilles, effeuillée de chicon</p>
+        Corolles au Maroilles, confiture d'oignon</p>
 
       <h3>Plat</h3>
 

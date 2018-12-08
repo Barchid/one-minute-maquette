@@ -287,6 +287,10 @@ export default new Router({
      name: 'cookerOrderFinished',
      component: () => import(/* webpackChunkName: "about" */ './views/CookerOrderFinished.vue'),
     },
-
+    {
+     path: '/servir',
+     name: 'servir',
+     component: () => import(/* webpackChunkName: "about" */ './views/Servir.vue'),
+    },
   ],
 });

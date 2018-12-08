@@ -266,8 +266,12 @@
 
 
 
-
-      <router-link to="/newChangeRolesCookers"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Change Profil</button></router-link>
+      <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+        Supprimer
+      </div>
+      <div class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+        Ajouter
+      </div>
     </form>
   </div>
 </template>

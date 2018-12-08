@@ -44,7 +44,7 @@
               <router-link class="dropdown-item" to="/rolesCookers">Accéder aux rôles</router-link>
               <router-link class="dropdown-item" to="/CookerOrder">Cuisiner une préparation</router-link>
               <router-link class="dropdown-item" to="/cookerOrderFinished">Terminer une préparation</router-link>
-              <router-link class="dropdown-item" to="/unavailableDish">Plat indisponible</router-link>
+              <router-link class="dropdown-item" to="/unavailableDish">Préparations indisponibles</router-link>
               <div class="dropdown-divider"></div>
               <router-link class="dropdown-item" to="/changeRolesCookers">Modifier les rôles</router-link>
             </div>

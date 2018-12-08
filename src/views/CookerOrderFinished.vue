@@ -3,7 +3,7 @@
     <form method="post" action="traitement.php">
 
 
-      <h4 style="margin-top:30px;color:#007bff;text-align:center;">Préparations en trains d'être cuisinés</h4>
+      <h4 style="margin-top:30px;color:#007bff;text-align:center;">Préparations en train d'être cuisinées</h4>
       <select>
         <option value="nobody"></option>
         <option  value="patissier">Marc</option>
@@ -116,7 +116,7 @@
 
           </div>
         </div>
-          <router-link to="/newRolesCookers"><button type="submit" class="btn btn-primary">Ont été cuisinée</button></router-link>
+          <router-link to="/newRolesCookers"><button type="submit" class="btn btn-primary">Ont été cuisinées</button></router-link>
         </form>
       </form>
     </div>
