@@ -34,7 +34,7 @@
         <div class="row">
           <div class="col">
             <img src="../assets/menu/plat-4.jpg" alt="" style="width:50px;border:3px solid white;"/>
-            Croquant au Maroilles, effeuillée de chicon
+            Corolles au Maroilles, effeuillée de chicon
           </div>
           <div class="col">
             8€
