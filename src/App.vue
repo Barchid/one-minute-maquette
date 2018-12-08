@@ -14,9 +14,22 @@
               Menu
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <router-link class="dropdown-item" to="/menu">Voir le menu</router-link>
+              <router-link class="dropdown-item" to="/menu">Page administration Patron</router-link>
               <div class="dropdown-divider"></div>
-              <router-link class="dropdown-item" to="/changeMenu">Modifier le Menu</router-link>
+
+              <router-link class="dropdown-item" to="/menu">Voir le menu actif</router-link>
+              <router-link class="dropdown-item" to="/menu">Voir les catégories</router-link>
+              <router-link class="dropdown-item" to="/menu">Voir les menus</router-link>
+              <div class="dropdown-divider"></div>
+              <router-link class="dropdown-item" to="/changeMenu">Modifier le menu actif</router-link>
+              <div class="dropdown-divider"></div>
+              <router-link class="dropdown-item" to="/changeMenu">Créer une catégorie</router-link>
+              <router-link class="dropdown-item" to="/changeMenu">Créer une préparation</router-link>
+              <router-link class="dropdown-item" to="/changeMenu">Supprimer une préparation</router-link>
+              <router-link class="dropdown-item" to="/changeMenu">Supprimer une préparation</router-link>
+              <router-link class="dropdown-item" to="/changeMenu">Modifier les catégories</router-link>
+              <router-link class="dropdown-item" to="/changeMenu">Modifier les préparation</router-link>
+
             </div>
           </li>
           <li class="nav-item dropdown">
@@ -54,3 +67,5 @@
     <router-view/>
   </div>
 </template>
+window.$ = require('jquery')
+window.JQuery = require('jquery')
