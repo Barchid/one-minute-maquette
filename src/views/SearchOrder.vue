@@ -1,6 +1,7 @@
 <template>
   <div class="searchOrder">
     <form method="post" action="traitement.php">
+      <h4>Rechercher une commande</h4>
       <div class="container" >
         <div class="row" >
           <div class="col-sm" style="margin:0px;padding:0px; margin-top:30px;">

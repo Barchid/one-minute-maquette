@@ -14,21 +14,13 @@
               Menu
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <router-link class="dropdown-item" to="/menu">Page administration Patron</router-link>
-              <div class="dropdown-divider"></div>
 
-              <router-link class="dropdown-item" to="/menu">Voir le menu actif</router-link>
-              <router-link class="dropdown-item" to="/menu">Voir les catégories</router-link>
-              <router-link class="dropdown-item" to="/menu">Voir les menus</router-link>
+              <router-link class="dropdown-item" to="/menu">Voir le menu</router-link>
+    <!--          <router-link class="dropdown-item" to="/menu">Voir les catégories</router-link>
+              <router-link class="dropdown-item" to="/all-menus">Voir les menus</router-link>-->
               <div class="dropdown-divider"></div>
-              <router-link class="dropdown-item" to="/changeMenu">Modifier le menu actif</router-link>
-              <div class="dropdown-divider"></div>
-              <router-link class="dropdown-item" to="/changeMenu">Créer une catégorie</router-link>
-              <router-link class="dropdown-item" to="/changeMenu">Créer une préparation</router-link>
-              <router-link class="dropdown-item" to="/changeMenu">Supprimer une préparation</router-link>
-              <router-link class="dropdown-item" to="/changeMenu">Supprimer une préparation</router-link>
-              <router-link class="dropdown-item" to="/changeMenu">Modifier les catégories</router-link>
-              <router-link class="dropdown-item" to="/changeMenu">Modifier les préparation</router-link>
+              <router-link class="dropdown-item" to="/bossMenu">Page administration Patron</router-link>
+
 
             </div>
           </li>

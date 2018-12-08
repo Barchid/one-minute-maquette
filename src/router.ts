@@ -270,6 +270,20 @@ export default new Router({
       name: 'order-table-17',
       component: () => import(/* webpackChunkName: "about" */ './views/Order-table-17.vue'),
     },
-
+    {
+     path: '/veganMenu',
+     name: 'veganMenu',
+     component: () => import(/* webpackChunkName: "about" */ './views/VeganMenu.vue'),
+   },
+   {
+    path: '/all-menus',
+    name: 'all-menus',
+    component: () => import(/* webpackChunkName: "about" */ './views/AllMenus.vue'),
+  },
+  {
+   path: '/bossMenu',
+   name: 'bossMenu',
+   component: () => import(/* webpackChunkName: "about" */ './views/BossMenu.vue'),
+ },
   ],
 });
