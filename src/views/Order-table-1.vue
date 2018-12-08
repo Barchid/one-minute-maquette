@@ -5,6 +5,7 @@
       <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Table installée</div>
     </div>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Valider les modifications</button></router-link>
+    <router-link to="/order-table-1"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Imprimer l'addition</button></router-link>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary bg-danger" style="margin-bottom:10px;border-color:red">Supprimer la commande</button></router-link>
 
     <div class="container">
@@ -76,8 +77,8 @@
 
     <h4>Addition</h4>
 
-    <p >Prix de l'addition : 166€</p>
-    <router-link to="/billPaid"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Payer l'addition</button></router-link>
+    <p >Prix de l'addition : 0€</p>
+    <router-link to="/order-table-1"><button type="submit" class="btn btn-primary disabled" style="margin-bottom:30px;">Rien à payer</button></router-link>
 
 
   </div>

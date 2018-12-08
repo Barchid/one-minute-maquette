@@ -5,6 +5,7 @@
       <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Table à débarasser</div>
     </div>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Valider les modifications</button></router-link>
+    <router-link to="/order-table-2"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Imprimer l'addition</button></router-link>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary bg-danger" style="margin-bottom:10px;border-color:red">Supprimer la commande</button></router-link>
 
     <div class="container">

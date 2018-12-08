@@ -5,6 +5,8 @@
       <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Plat Indisponible</div>
     </div>
     <router-link to="/accueil"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Valider les modifications</button></router-link>
+    <router-link to="/order-table-3"><button type="submit" class="btn btn-primary" style="margin-bottom:10px;margin-right:10px">Imprimer l'addition</button></router-link>
+
     <router-link to="/accueil"><button type="submit" class="btn btn-primary bg-danger" style="margin-bottom:10px;border-color:red">Supprimer la commande</button></router-link>
 
     <div class="container">

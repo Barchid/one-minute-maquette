@@ -283,9 +283,10 @@ export default new Router({
       component: () => import(/* webpackChunkName: "about" */ './views/WinterMenu.vue'),
     },
     {
-     path: '/createDish',
-     name: 'createDish',
-     component: () => import(/* webpackChunkName: "about" */ './views/CreateDish.vue'),
+     path: '/cookerOrderFinished',
+     name: 'cookerOrderFinished',
+     component: () => import(/* webpackChunkName: "about" */ './views/CookerOrderFinished.vue'),
     },
+
   ],
 });

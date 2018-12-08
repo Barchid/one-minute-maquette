@@ -2,6 +2,7 @@
   <div class="order-table-1">
     <h4 style="margin-bottom:30px;">Page d'administration du Menu</h4>
     <form method="post" action="traitement.php">
+      <h4 style="margin-bottom:30px;color:#007bff;text-align:center;">Menus</h4>
 
       <p>
         <router-link to="/summerMenu" style="margin-right:30px;">
@@ -32,8 +33,23 @@
               </router-link>
             </p>
 
+            <h4 style="margin-top:30px;color:#007bff;text-align:center;">Catégories</h4>
+
+            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+              Supprimer
+            </button>
+            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+              Ajouter
+            </button>
 
             <h4 style="margin-top:30px;color:#007bff;text-align:center;">Préparations</h4>
+
+            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+              Supprimer
+            </button>
+            <button type="submit" class="btn btn-primary disabled"  style="border:none; margin:10px;" >
+              Ajouter
+            </button>
             <div class="container">
               <div class="row">
                 <div class="col-sm">
