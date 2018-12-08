@@ -68,7 +68,7 @@
       </div>
     </div>
 
-      <router-link  to="/order"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Valider la commande</button></router-link>
+      <router-link  to="/order-table-14"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Valider la commande</button></router-link>
 
 
   </div>

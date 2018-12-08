@@ -176,5 +176,100 @@ export default new Router({
       name: 'removeToOrder',
       component: () => import(/* webpackChunkName: "about" */ './views/RemoveToOrder.vue'),
     },
+    {
+      path: '/billPaid',
+      name: 'billPaid',
+      component: () => import(/* webpackChunkName: "about" */ './views/BillPaid.vue'),
+    },
+    {
+      path: '/order-table-14',
+      name: 'order-table-14',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-14.vue'),
+    },
+    {
+      path: '/order-table-18',
+      name: 'order-table-18',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-18.vue'),
+    },
+    {
+      path: '/order-table-1',
+      name: 'order-table-1',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-1.vue'),
+    },
+    {
+      path: '/order-table-2',
+      name: 'order-table-2',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-2.vue'),
+    },
+    {
+      path: '/order-table-3',
+      name: 'order-table-3',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-3.vue'),
+    },
+    {
+      path: '/order-table-4',
+      name: 'order-table-4',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-4.vue'),
+    },
+    {
+      path: '/order-table-4',
+      name: 'order-table-4',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-4.vue'),
+    },
+    {
+      path: '/order-table-5',
+      name: 'order-table-5',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-5.vue'),
+    },
+    {
+      path: '/order-table-6',
+      name: 'order-table-6',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-6.vue'),
+    },
+    {
+      path: '/order-table-7',
+      name: 'order-table-7',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-7.vue'),
+    },
+    {
+      path: '/order-table-8',
+      name: 'order-table-8',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-8.vue'),
+    },
+    {
+      path: '/order-table-9',
+      name: 'order-table-9',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-9.vue'),
+    },
+    {
+      path: '/order-table-10',
+      name: 'order-table-10',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-10.vue'),
+    },    {
+      path: '/order-table-11',
+      name: 'order-table-11',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-11.vue'),
+    },    {
+      path: '/order-table-12',
+      name: 'order-table-12',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-12.vue'),
+    },    {
+      path: '/order-table-13',
+      name: 'order-table-13',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-13.vue'),
+    },    {
+      path: '/order-table-15',
+      name: 'order-table-15',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-15.vue'),
+    },    {
+      path: '/order-table-16',
+      name: 'order-table-16',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-16.vue'),
+    },    {
+      path: '/order-table-17',
+      name: 'order-table-17',
+      component: () => import(/* webpackChunkName: "about" */ './views/Order-table-17.vue'),
+    },
+
   ],
 });

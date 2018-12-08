@@ -21,50 +21,50 @@
           </div>
         </div>
       </div>
-      <router-link to="order">
+      <router-link to="order-table-3">
         Table 3
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Plat Indisponible</div>
         </div>
       </router-link>
 
-      <router-link to="order">
+      <router-link to="order-table-6">
         Table 6
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width:30%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Plat Indisponible</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-1">
         Table 1
         <div class="progress">
           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Table installée</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-5">
         Table 5
         <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Table à servir</div>
+          <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 30%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Table à servir</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-18">
         Table 18
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">Addition a régler</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-17">
         Table 17
         <div class="progress">
-          <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Table à servir</div>
+          <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">Table à servir</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-13">
         Table 13
         <div class="progress">
           <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 10%" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">Table installée</div>
         </div>
       </router-link>
-      <router-link to="order">
+      <router-link to="order-table-15">
         Table 15
         <div class="progress">
           <div class="progress-bar progress-bar-striped bg-striped" role="progressbar" style="width: 90%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">Addition à régler</div>
