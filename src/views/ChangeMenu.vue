@@ -39,7 +39,7 @@
         <div class="row">
           <div class="col">
             <input type="checkbox" checked="checked" style="display:inline-block;margin-left:10px;"/>
-            Croquant au Maroilles, effeuillée de chicon
+            Corolles au Maroilles, effeuillée de chicon
           </div>
           <div class="col">
             8€

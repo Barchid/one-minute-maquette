@@ -1,30 +1,77 @@
 <template>
-  <div class="takeOrder">
-    <form method="post" action="traitement.php">
-      <p>Numéro de la table<input type="text" name="table" value="14" style="width:30px;margin-left:10px;"/></p>
+  <div class="order">
+    <h4 style="margin-bottom:30px;">Nouvelle commande</h4>
+    <p>Numéro de la table <input value="14"/></p>
+    <div class="container">
+      <div class="row">
+        <div class="col-l" style="margin-right:30px;">
 
-      <h3>Entrée</h3>
+          <form method="post" action="traitement.php">
+            <h4 style="margin-top:30px;color:#007bff;text-align:center;">Commande</h4>
 
-      <p><input type="text" name="entree1" value="1" style="width:30px;margin-right:10px;" />Croquette de crevette</p>
-      <p><input type="text" name="entree2" value="2" style="width:30px;margin-right:10px;" />Os à la moelle, pain grillé, fleur de sel</p>
-      <p><input type="text" name="entree3" value="1" style="width:30px;margin-right:10px;" />Salade d'été</p>
-      <p><input type="text" name="entree4" value="2" style="width:30px;margin-right:10px;" />Croquant au Maroilles, effeuillée de chicon</p>
+            <h5 style="margin-top:30px;width:500px;">Entrée</h5>
+...
 
-      <h3>Plat</h3>
 
-      <p><input type="text" name="plat1" value="2" style="width:30px;margin-right:10px;" />Pièce de boeuf, sauce au poivre, frite, salade</p>
-      <p><input type="text" name="plat2" value="1" style="width:30px;margin-right:10px;" />Poisson du marché, riz pilaf, légumes</p>
-      <p><input type="text" name="plat3" value="1" style="width:30px;margin-right:10px;" />Carbonnade flammade, frites</p>
-      <p><input type="text" name="plat4" value="1" style="width:30px;margin-right:10px;" />Suprème de poulet forestier, purée maison</p>
-      <p><input type="text" name="plat5" value="1" style="width:30px;margin-right:10px;" />Fish & Chips, sauce cocktail,  sauce tartare et mesclun</p>
+            <h5>Plat</h5>
+...
 
-      <h3>Dessert</h3>
 
-      <p><input type="text" name="dessert1" value="1" style="width:30px;margin-right:10px;" />Brioche façon pain-perdu au caramel au beurre salé</p>
-      <p><input type="text" name="dessert2" value="3" style="width:30px;margin-right:10px;" />Tarte fine au pommes</p>
-      <p><input type="text" name="dessert4" value="2" style="width:30px;margin-right:10px;" />Coupe de glace ou de sorbet (3 boules)</p>
 
-      <router-link to="/order"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Submit</button></router-link>
-    </form>
+            <h5>Dessert</h5>
+
+...
+          </form>
+
+
+        </div>
+
+        <div class="col-l">
+          <form method="post" action="traitement.php">
+            <h4 style="margin-top:30px;color:#007bff;text-align:center;">Menu</h4>
+
+            <h5 style="margin-top:30px;">Entrée</h5>
+
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-1.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Croquette de crevette</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-2.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Os à la moelle, pain grillé, fleur de sel</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-3.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Salade d'été</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-4.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Corolles au Maroilles, confiture d'oignon</p>
+
+            <h5>Plat</h5>
+
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-5.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Pièce de boeuf, sauce au poivre, frite, salade</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-6.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Poisson du marché, riz pilaf, légumes</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-7.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Carbonnade flammade, frites</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-8.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Suprème de poulet forestier, purée maison</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-9.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Fish & Chips, sauce cocktail,  sauce tartare et mesclun</p>
+
+            <h5>Dessert</h5>
+
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-10.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Brioche façon pain-perdu au caramel au beurre salé</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-11.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Tarte fine au pommes</p>
+            <p style="margin-bottom:0px"><img src="../assets/menu/plat-12.jpg" alt="" style="width:50px;border:3px solid white;"/>
+              <input type="button" value="+" style="color:white; background-color:green; border-color:white;margin:5px;height:30px;width:30px"/>Coupe de glace ou de sorbet (3 boules)</p>
+
+          </form>
+        </div>
+      </div>
+    </div>
+
+      <router-link  to="/order"><button type="submit" class="btn btn-primary" style="margin-bottom:30px;">Valider la commande</button></router-link>
+
+
   </div>
+
+
 </template>
